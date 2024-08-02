@@ -7,8 +7,9 @@ interface Imovie {
   original_name: string;
   poster_path: string;
   overview: string;
-  vote_average: number;
+  release_date: number;
   vote_count: number;
+  name: string;
 }
 
 interface Imovies {
